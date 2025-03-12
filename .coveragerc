@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = app,plugin_manager,logger_setup,config,main
+
+[report]
+show_missing = True
+skip_covered = False

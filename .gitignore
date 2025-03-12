@@ -1,0 +1,27 @@
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Pytest, coverage, and mypy reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+*.cover
+
+# IDE folders
+.vscode/
+.idea/
