@@ -2,11 +2,12 @@
 
 ## Overview
 
-This project is a simple Python-based calculator that lets you perform basic arithmetic operations through an interactive command-line interface. It features a calculation history that persists between sessions, the ability to edit previous entries, and support for plugins to extend its functionality.
+This project is a simple Python-based calculator that lets you perform basic arithmetic and statistical operations through an interactive command-line interface. It features a calculation history that persists between sessions, the ability to edit previous entries, and support for plugins to extend its functionality.
 
 ## Features
 
 - **Arithmetic Operations:** Easily perform addition, subtraction, multiplication, and division.
+- **Statistical Operations:** Easily perform mean, median, mode and variance.
 - **Calculation History:** Every calculation is recorded with a timestamp. You can view, clear, or edit your history.
 - **Plugin Support:** Extend the calculator’s capabilities by adding custom plugins.
 - **Persistence:** Your calculation history is saved automatically when you exit and loaded when you start again.
@@ -31,7 +32,8 @@ This project is a simple Python-based calculator that lets you perform basic ari
 - 3. `multiply 84 364` - Multiplies 84 by 364.
 - 4. `divide 875 35` - Divides 875 by 35 (also shows an error if division by zero is attempted).
 - 5. `add 876 75;subtract 9874 8743;multiply 7834 56` - This way we will get multiple operations at once.
-
+- 6. `sqrt 49` - Gives the square root of 49.
+- 7. `mean 978 348 479 987` - Gives average of these numbers. 
 ### History Management:
 - `history` – Displays all past calculations.
 - `clear_history` – Clears the calculation history.
