@@ -13,6 +13,8 @@ This project is a simple Python-based calculator that lets you perform basic ari
 - **Persistence:** Your calculation history is saved automatically when you exit and loaded when you start again.
 - **User-Friendly REPL:** A clear command-line interface that shows available commands and usage instructions.
 
+## Demo Video Link
+- This the link to my demo video link - [Demo Video](https://drive.google.com/file/d/1FsWkvNlHg8uYU5c4BsHBsaO7kfeKYeWb/view?usp=drive_link)
 ## Create and Activate a Virtual Environment
 - **On Linux/Mac:**
 - `python3 -m venv venv`
@@ -31,9 +33,9 @@ This project is a simple Python-based calculator that lets you perform basic ari
 - 2. `subtract 99 76` - Subtracts 76 from 99.
 - 3. `multiply 84 364` - Multiplies 84 by 364.
 - 4. `divide 875 35` - Divides 875 by 35 (also shows an error if division by zero is attempted).
-- 5. `add 876 75;subtract 9874 8743;multiply 7834 56` - This way we will get multiple operations at once.
-- 6. `sqrt 49` - Gives the square root of 49.
-- 7. `mean 978 348 479 987` - Gives average of these numbers. 
+- 5. `sqrt 49` - Gives the square root of 49.
+- 6. `mean 978 348 479 987` - Gives average of these numbers.
+- 7. `square 6` - Gives the square of 6. 
 ### History Management:
 - `history` – Displays all past calculations.
 - `clear_history` – Clears the calculation history.
